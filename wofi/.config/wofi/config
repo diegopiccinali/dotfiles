@@ -1,0 +1,12 @@
+styles=./style.css
+color=./colors
+mode=drun
+prompt=Buscar...
+width=35%
+allow_images=true
+allow_markup=true
+term=kitty
+hide_scroll=true
+lines=5
+columns=1
+image_size=40
