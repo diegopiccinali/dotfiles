@@ -5,6 +5,14 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+vim.opt.wrap = true
+
+vim.opt.linebreak = true
+
+vim.opt.breakindent = true
+
+vim.opt.showbreak = "↳ "
+
 local path_package = vim.fn.stdpath('data') .. '/site'
 local mini_path = path_package .. '/pack/deps/start/mini.nvim'
 if not vim.loop.fs_stat(mini_path) then

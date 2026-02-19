@@ -23,7 +23,7 @@
       ),
       eq: []
     ),
-    theme: Some("theme"),
+    theme: Some("default"),
     address: "127.0.0.1:6600",
     password: None,
     cache_dir: None,
