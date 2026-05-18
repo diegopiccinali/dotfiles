@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "agent": {
+    "dock": "right",
     "button": true,
     "play_sound_when_agent_done": true,
     "enable_feedback": false,
@@ -25,6 +29,7 @@
     "button": true,
   },
   "git_panel": {
+    "dock": "left",
     "collapse_untracked_diff": false,
     "tree_view": true,
     "sort_by_path": false,
