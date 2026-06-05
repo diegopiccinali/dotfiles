@@ -8,12 +8,12 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "agent": {
     "dock": "right",
     "button": true,
-    "play_sound_when_agent_done": true,
+    "play_sound_when_agent_done": "always",
     "enable_feedback": false,
     "favorite_models": [],
     "single_file_review": false,
@@ -25,9 +25,9 @@
       "padding": 4,
     },
   },
-  "notification_panel": {
-    "button": true,
-  },
+  // "notification_panel": {
+  //   "button": true,
+  // },
   "git_panel": {
     "dock": "left",
     "collapse_untracked_diff": false,
@@ -56,7 +56,7 @@
     "show_onboarding_banner": true,
     "show_project_items": true,
     "show_branch_name": true,
-    "show_branch_icon": true,
+    // "show_branch_icon": true,
   },
   "debugger": {
     "button": true,
